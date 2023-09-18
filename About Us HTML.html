@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+
+            About Us
+
+        </title>
+
+        <meta charset = "utf-8">
+
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+        <script src="https://kit.fontawesome.com/5471644867.js" crossorigin="anonymous"></script>
+
+        <link rel = 'stylesheet' type = "text/css" href = 'About Us CSS.css'>
+	    
+	<link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico"/>
+
+    </head>
+
+    <body>
+        <!-- HEADER -->
+    <div id="1"></div>
+    <script>
+        load("header.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(1).innerHTML = req.responseText;
+        }
+    </script>
+        <div class = "section">
+
+            <div class = "container">
+
+                <div class = "content-section">
+
+                    <div class = "title">
+
+                        <h1 style = "font-family: 'Poppins', sans-serif;">
+
+                            About Us
+
+                        </h1>
+
+                    </div>
+
+                    <div class = "content">
+
+                        <p>
+
+							The EL Cart Group is one of India’s leading digital commerce entities and includes group companies Flipkart, Myntra, Flipkart Wholesale, Flipkart Health+, and Cleartrip.
+
+Started in 2007, Flipkart has enabled millions of sellers, merchants, and small businesses to participate in India's digital commerce revolution. With a registered customer base of more than 450 million, Flipkart's marketplace offers over 150 million products across 80+ categories. Today, there are over 11 lakh sellers on the platform, including Shopsy sellers. With a focus on empowering and delighting every Indian by delivering value through technology and innovation, Flipkart has created lakhs of jobs in the ecosystem while empowering generations of entrepreneurs and MSMEs. Flipkart is known for pioneering services such as Cash on Delivery, No Cost EMI and easy returns, which are customer-centric innovations that have made online shopping more accessible and affordable for millions of Indians.
+
+                            <br>
+
+                            <br>
+
+                            To go to the home page, click on the El Cart Icon.
+
+                            <br>
+
+                            <br>
+
+                            Get in touch with us through the popular social media platforms.
+
+                        </p>
+
+                    </div>
+
+                    <div class="social">
+
+                        <a href = 'https://www.facebook.com/' style = 'color: black; text-decoration: none;'>
+
+                            <i class = "fab fa-facebook-f"></i>
+
+                        </a>
+
+                        <a href = 'https://twitter.com/?lang=en-in' style = "color: black; text-decoration: none;">
+
+                            <i class = "fab fa-twitter"></i>
+
+                        </a>
+
+                        <a href = 'https://www.instagram.com/' style = "color: black; text-decoration: none;">
+
+                            <i class = "fab fa-instagram"></i>
+
+                        </a>
+
+                        <a href = 'https://www.youtube.com/' style = "color: black; text-decoration: none;">
+
+                            <i class="fab fa-youtube"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                
+
+            </div>
+
+        </div>
+         <!-- FOOTER -->
+    <div id="4"></div>
+    <script>
+        load("footer.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(4).innerHTML = req.responseText;
+        }
+    </script>
+    </body>
+
+</html>
